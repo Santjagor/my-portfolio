@@ -10,3 +10,7 @@
     z-index: -1;
     padding: 5px;
 }
+
+.text {
+    color: var(--primary-color);
+}
