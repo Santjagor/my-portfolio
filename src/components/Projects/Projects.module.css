@@ -1,5 +1,5 @@
 .section{
     background-color: rgb(35, 36, 36);
     width: 73vw;
-    height: 58vh;
+    height: fit-content;
 }

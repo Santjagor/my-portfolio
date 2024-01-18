@@ -34,7 +34,7 @@
     margin: 0.8vw 0vw 0vw 0vw;
 }
 
-.section{
+.section {
     background-color: rgb(35, 36, 36);
     width: 73vw;
     height: 58vh;
@@ -48,7 +48,6 @@
 }
 
 .nav {
-    background-color: brown;
     width: fit-content;
     height: fit-content;
     margin: 1vw 0vw 1vw 0vw;
@@ -58,10 +57,8 @@
     gap: 5px;
 }
 
-.navButton {
-    background-color: rgb(201, 71, 71);
-    width: 80px;
-    height: 80px;
+.navButton{
+    
 }
 
 @media (max-width: 500px) {}

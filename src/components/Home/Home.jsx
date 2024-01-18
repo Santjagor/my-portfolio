@@ -37,9 +37,24 @@ export default function Overlay() {
                     <div className={styles.title}>{title}</div>
                     {section}
                     <div className={styles.nav}>
-                        <button name="About me" className={styles.navButton} onClick={changeSection}></button>
-                        <button name="Projects" className={styles.navButton} onClick={changeSection}></button>
-                        <button name="Technologies" className={styles.navButton} onClick={changeSection}></button>
+                        <img
+                            name="About me"
+                            className={styles.navButton}
+                            onClick={changeSection}
+                            src="AboutMe.svg"
+                            alt="AboutMe" />
+                        <img
+                            name="Projects"
+                            className={styles.navButton}
+                            onClick={changeSection}
+                            src="Projects.svg"
+                            alt="Projects" />
+                        <img
+                            name="Technologies"
+                            className={styles.navButton}
+                            onClick={changeSection}
+                            src="Technologies.svg"
+                            alt="Technologies" />
                     </div>
                 </div>
             </div>

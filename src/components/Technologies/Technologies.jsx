@@ -13,6 +13,7 @@ export default function Overlay(props) {
         <div className={styles.section}>
             {technologies.map(tech => {
                 return (<img
+                    key={tech.name}
                     name={tech.name}
                     onMouseEnter={props.changeTitle}
                     onMouseLeave={props.changeTitle}
