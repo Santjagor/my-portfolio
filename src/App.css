@@ -6,6 +6,7 @@
 :root {
   --primary-color: rgb(210, 233, 221);
   --secondary-color: rgb(223, 69, 69);
+  --bg-color: rgb(59, 59, 59);
   --text-size: 1.5vw;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .box {
-  border: 6px double var(--primary-color);
+  border: 7px double var(--primary-color);
   border-radius: 60px;
   width: 90vw;
   height: 90vh;
