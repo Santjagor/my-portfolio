@@ -13,4 +13,5 @@
 
 .text {
     color: var(--primary-color);
+    font-size: var(--text-size);
 }

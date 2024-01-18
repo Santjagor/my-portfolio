@@ -5,6 +5,8 @@
 
 :root {
   --primary-color: rgb(210, 233, 221);
+  --secondary-color: rgb(223, 69, 69);
+  --text-size: 1.5vw;
 }
 
 .App {
@@ -43,9 +45,9 @@
 }
 
 .title {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: monospace;
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin: 0vw 0vw 2vw 0vw;
 }
 
