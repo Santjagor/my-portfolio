@@ -17,8 +17,16 @@ export default function Overlay() {
             setTitle("Projects")
         }
         if (event.target.name === 'Technologies') {
-            setSection(<Technologies></Technologies>)
+            setSection(<Technologies changeTitle={changeTitle}></Technologies>)
             setTitle("Technologies")
+        }
+    }
+    const changeTitle = (event) => {
+        if (event.type === "mouseenter") {
+            setTitle(event.target.name)
+        }
+        if (event.type === "mouseleave") {
+            setTitle('Technologies')
         }
     }
     return (
