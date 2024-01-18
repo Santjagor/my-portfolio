@@ -10,13 +10,18 @@
 
 .navButton{
     scale: 1.0;
-    opacity: 70%;
+    opacity: 60%;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 .navButton:hover{
     scale: 1.1;
     opacity: 100%;
+}
+
+.navButtonActive{
+    scale: 1.0;
+    opacity: 100%;
     cursor: pointer;
-    transition: all 0.2 ease-in-out;
 }

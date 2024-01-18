@@ -1,5 +1,12 @@
-.section{
-    background-color: rgb(35, 36, 36);
+.section {
     width: 73vw;
     height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: -1;
+    padding: 5px;
 }

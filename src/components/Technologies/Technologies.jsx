@@ -8,6 +8,10 @@ export default function Overlay(props) {
         { name: "Redux", src: "Redux.png" },
         { name: "ExpressJS", src: "ExpressJS.png" },
         { name: "PostgreSQL", src: "Postgresql.png" },
+        { name: "Photoshop", src: "PSD.png" },
+        { name: "CorelDraw", src: "CorelDraw.png" },
+        { name: "Excel", src: "Excel.png" },
+        { name: "Word", src: "Word.png" },
     ]
     return (
         <div className={styles.section}>

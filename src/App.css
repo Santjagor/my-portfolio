@@ -3,20 +3,18 @@
   src: url(D:\Portfolio\myPortfolio\my-portfolio\public\LEMONMILK-Light.otf);
 }
 
-.App {
-  text-align: center;
-}
-
 :root {
   --primary-color: rgb(210, 233, 221);
 }
 
-.container {
+.App {
+  text-align: center;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .box {
@@ -34,7 +32,7 @@
 .name {
   color: var(--primary-color);
   font-family: primary-font;
-  font-size: 2.8vw;
+  font-size: 3vw;
   margin: 0.8vw 0vw 0vw 0vw;
 }
 
