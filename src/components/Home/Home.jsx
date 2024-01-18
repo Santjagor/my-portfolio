@@ -1,5 +1,6 @@
 import styles from './Home.module.css'
 import { useState } from 'react'
+import Navbar from '../Navbar/Navbar'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Technologies from '../Technologies/Technologies'
@@ -36,26 +37,7 @@ export default function Overlay() {
                     <div className={styles.name}>Santiago Martin Solavaggione</div>
                     <div className={styles.title}>{title}</div>
                     {section}
-                    <div className={styles.nav}>
-                        <img
-                            name="About me"
-                            className={styles.navButton}
-                            onClick={changeSection}
-                            src="AboutMe.svg"
-                            alt="AboutMe" />
-                        <img
-                            name="Projects"
-                            className={styles.navButton}
-                            onClick={changeSection}
-                            src="Projects.svg"
-                            alt="Projects" />
-                        <img
-                            name="Technologies"
-                            className={styles.navButton}
-                            onClick={changeSection}
-                            src="Technologies.svg"
-                            alt="Technologies" />
-                    </div>
+                    <Navbar changeSection={changeSection}></Navbar>
                 </div>
             </div>
         </div>

@@ -1,0 +1,22 @@
+.nav {
+    width: fit-content;
+    height: fit-content;
+    margin: 1vw 0vw 1vw 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.navButton{
+    scale: 1.0;
+    opacity: 70%;
+    transition: all .2s ease-in-out;
+}
+
+.navButton:hover{
+    scale: 1.1;
+    opacity: 100%;
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+}

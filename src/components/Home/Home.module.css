@@ -4,7 +4,7 @@
 }
 
 :root {
-    --primary-color: bisque;
+    --primary-color: rgb(210, 233, 221);
 }
 
 .container {
@@ -45,20 +45,6 @@
     font-family: monospace;
     font-size: 2vw;
     margin: 0vw 0vw 2vw 0vw;
-}
-
-.nav {
-    width: fit-content;
-    height: fit-content;
-    margin: 1vw 0vw 1vw 0vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 5px;
-}
-
-.navButton{
-    
 }
 
 @media (max-width: 500px) {}
