@@ -9,7 +9,9 @@ export default function Overlay(props) {
         { name: "ExpressJS", src: "ExpressJS.png" },
         { name: "PostgreSQL", src: "Postgresql.png" },
         { name: "Photoshop", src: "PSD.png" },
+        { name: "AfterEffects", src: "AfterEffects.png" },
         { name: "CorelDraw", src: "CorelDraw.png" },
+        { name: "VegasPro", src: "VegasPro.png" },
         { name: "Excel", src: "Excel.png" },
         { name: "Word", src: "Word.png" },
     ]
