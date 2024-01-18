@@ -1,5 +1,26 @@
-.section{
-    background-color: rgb(35, 36, 36);
+.section {
     width: 73vw;
-    height: 58vh;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: -1;
+    padding: 5px;
+}
+
+.image {
+    width: 12vw;
+    min-width: 180px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px 0px rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
+}
+
+.image:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 0px var(--primary-color);
 }
