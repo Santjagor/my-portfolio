@@ -5,7 +5,7 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Technologies from '../Technologies/Technologies'
 
-export default function Overlay() {
+export default function Home() {
     const [section, setSection] = useState(<About></About>)
     const [title, setTitle] = useState("Full Stack Web Developer")
     const changeSection = (event) => {
