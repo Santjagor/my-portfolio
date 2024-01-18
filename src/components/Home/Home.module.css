@@ -1,0 +1,73 @@
+@font-face {
+    font-family: primary-font;
+    src: url(D:\Portfolio\myPortfolio\my-portfolio\public\LEMONMILK-Light.otf);
+}
+
+:root {
+    --primary-color: bisque;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 6px double var(--primary-color);
+    border-radius: 60px;
+    width: 90vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .salute{
+    color: var(--primary-color);
+    font-family: monospace;
+    font-size: 2vw;
+    margin: 1vw 0vw 0vw 0vw;
+} */
+
+.name {
+    color: var(--primary-color);
+    font-family: primary-font;
+    font-size: 2.8vw;
+    margin: 0.8vw 0vw 0vw 0vw;
+}
+
+.section{
+    background-color: rgb(35, 36, 36);
+    width: 73vw;
+    height: 58vh;
+}
+
+.fswd {
+    color: var(--primary-color);
+    font-family: monospace;
+    font-size: 1.5vw;
+    /* margin: 1vw 0vw 0vw 0vw; */
+}
+
+.nav {
+    background-color: brown;
+    width: fit-content;
+    height: fit-content;
+    margin: 1vw 0vw 1vw 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.navButton {
+    background-color: rgb(201, 71, 71);
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width: 500px) {}
