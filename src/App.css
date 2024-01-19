@@ -22,7 +22,7 @@
 }
 
 .texture {
-  background-image: url(D:\Portfolio\myPortfolio\my-portfolio\public\BgTexture.png);
+  /* background-image: url(D:\Portfolio\myPortfolio\my-portfolio\public\BgTexture.png); */
   position: absolute;
   opacity: 10%;
   width: 100%;
