@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: primary-font;
   src: url(D:\Portfolio\myPortfolio\my-portfolio\public\font.otf);
-}
+} */
 
 :root {
   --primary-color: rgb(210, 233, 221);
