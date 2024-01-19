@@ -1,7 +1,7 @@
 import styles from './Projects.module.css'
-import { projects } from '../../Data/Data'
+import { projects } from '../../Data/Projects'
 
-export default function Overlay(props) {
+export default function Projects(props) {
     return (
         <div className={styles.section}>
             {projects.map(prct => {

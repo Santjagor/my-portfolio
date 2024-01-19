@@ -1,6 +1,7 @@
 import styles from './About.module.css'
+import { aboutMe } from '../../Data/AboutMe'
 
-export default function Overlay() {
+export default function AboutMe(props) {
     return (
         <div className={styles.section}>
             <p className={styles.text}>
@@ -14,6 +15,21 @@ export default function Overlay() {
 
                 Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Diam volutpat commodo sed egestas egestas fringilla phasellus. Vitae ultricies leo integer malesuada. Magna sit amet purus gravida quis blandit turpis cursus in. Sed arcu non odio euismod lacinia at quis. Tempor nec feugiat nisl pretium fusce id velit. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Nisl vel pretium lectus quam id leo. Nunc lobortis mattis aliquam faucibus. A scelerisque purus semper eget duis at tellus at. Nisl nisi scelerisque eu ultrices vitae. Nunc vel risus commodo viverra maecenas accumsan lacus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Viverra vitae congue eu consequat ac felis donec et odio. Tortor aliquam nulla facilisi cras fermentum odio eu. Placerat orci nulla pellentesque dignissim enim sit. Eu turpis egestas pretium aenean.
             </p>
+            <div className={styles.social}>
+                {aboutMe.social.map(e => {
+                    return (
+                        <a href={e.link} target={"_blank"} >
+                            <img
+                                name={e.name}
+                                onMouseEnter={props.changeTitle}
+                                onMouseLeave={props.changeTitle}
+                                className={styles.socialImage}
+                                src={e.image}
+                                alt={e.name} />
+                        </a>
+                    )
+                })}
+            </div>
         </div>
     )
 }

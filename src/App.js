@@ -45,7 +45,7 @@ function App() {
         <div className="name">Santiago Martin Solavaggione</div>
         <div className="title">{title}</div>
         <Routes>
-          <Route path='/' element={<About></About>} ></Route>
+          <Route path='/' element={<About changeTitle={changeTitle}></About>} ></Route>
           <Route path='/projects' element={<Projects changeTitle={changeTitle}></Projects>}></Route>
           <Route path='/technologies' element={<Technologies changeTitle={changeTitle}></Technologies>} ></Route>
         </Routes>

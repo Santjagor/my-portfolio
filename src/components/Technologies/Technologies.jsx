@@ -1,7 +1,7 @@
 import styles from './Technologies.module.css'
-import { technologies } from '../../Data/Data'
+import { technologies } from '../../Data/Technologies'
 
-export default function Overlay(props) {
+export default function Technologies(props) {
     return (
         <div className={styles.section}>
             {technologies.map(tech => {

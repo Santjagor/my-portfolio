@@ -55,11 +55,6 @@
     transition: all .2s ease-in-out;
 }
 
-.technologyImage:hover {
-    scale: 1.01;
-    border-radius: 20px;
-}
-
 .text {
     color: var(--primary-color);
     font-size: var(--text-size);
