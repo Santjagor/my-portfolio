@@ -11,12 +11,13 @@
     padding: 5px;
 }
 
-.project{
-    
+.project {
+    display: flex;
+    align-items: flex-start;
 }
 
-.image{
-
+.image {
+    width: 20vw;
 }
 
 .text {
