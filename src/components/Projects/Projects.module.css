@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     overflow-y: auto;
+    overflow-x: hidden;
     flex-wrap: wrap;
     gap: 50px;
     z-index: -1;
@@ -65,8 +66,8 @@
 
 @-webkit-keyframes slide-in-blurred-left {
     0% {
-        -webkit-transform: translateX(-1000px) scaleY(2.5) scaleX(0.2);
-        transform: translateX(-1000px) scaleY(2.5) scaleX(0.2);
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
         -webkit-transform-origin: 50% 0%;
         transform-origin: 50% 0%;
         -webkit-filter: blur(40px);
