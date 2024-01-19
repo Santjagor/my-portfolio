@@ -41,6 +41,7 @@ function App() {
   }
   return (
     <div className="App">
+      <div className="texture"></div>
       <div className="box">
         <div className="name">Santiago Martin Solavaggione</div>
         <div className="title">{title}</div>
