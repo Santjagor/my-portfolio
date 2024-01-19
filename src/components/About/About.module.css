@@ -11,6 +11,32 @@
     padding: 5px;
 }
 
+.container1{
+    text-align: start;
+    align-items: center;
+    display: flex;
+}
+
+.container2{
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 20vw;
+}
+
+.title{
+    color: var(--primary-color);
+    margin: 0 0 0 0px;
+    height: 3vw;
+}
+
+.info{
+    margin: 0 10px 0 10px;
+}
+
 .social {
     display: flex;
     gap: 10px;
@@ -20,6 +46,8 @@
     border-radius: 25px;
     width: 5vw;
     cursor: pointer;
+    box-shadow: 1px 1px 5px 0px rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
 }
 
 .socialImage:hover {
@@ -30,4 +58,7 @@
 .text {
     color: var(--primary-color);
     font-size: var(--text-size);
+    margin: 0 0 0 0px;
+    height: 16vw;
+    overflow: hidden;
 }
