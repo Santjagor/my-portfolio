@@ -97,7 +97,7 @@ export default function Overlay(props) {
                             <p className={styles.text}>{prct.description}</p>
                             <div className={styles.technologies}>
                                 {prct.technologies.map(tech => {
-                                    return (<img key={tech.name} className={styles.technologieImage} src={tech.image} alt={tech.name} />)
+                                    return (<img key={tech.name} className={styles.technologyImage} src={tech.image} alt={tech.name} />)
                                 })}
                             </div>
                         </div>
