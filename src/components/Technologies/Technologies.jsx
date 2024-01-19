@@ -2,18 +2,19 @@ import styles from './Technologies.module.css'
 
 export default function Overlay(props) {
     const technologies = [
-        { name: "JavaScript", src: "JavaScript.png" },
-        { name: "NodeJS", src: "Node.png" },
-        { name: "React", src: "React.png" },
-        { name: "Redux", src: "Redux.png" },
-        { name: "ExpressJS", src: "ExpressJS.png" },
-        { name: "PostgreSQL", src: "Postgresql.png" },
-        { name: "Photoshop", src: "PSD.png" },
-        { name: "AfterEffects", src: "AfterEffects.png" },
-        { name: "CorelDraw", src: "CorelDraw.png" },
-        { name: "VegasPro", src: "VegasPro.png" },
-        { name: "Excel", src: "Excel.png" },
-        { name: "Word", src: "Word.png" },
+        { name: "JavaScript", image: "JavaScript.png" },
+        { name: "NodeJS", image: "Node.png" },
+        { name: "React", image: "React.png" },
+        { name: "Redux", image: "Redux.png" },
+        { name: "Bootstrap", image: "Bootstrap.png" },
+        { name: "ExpressJS", image: "ExpressJS.png" },
+        { name: "PostgreSQL", image: "Postgresql.png" },
+        { name: "Photoshop", image: "PSD.png" },
+        { name: "AfterEffects", image: "AfterEffects.png" },
+        { name: "CorelDraw", image: "CorelDraw.png" },
+        { name: "VegasPro", image: "VegasPro.png" },
+        { name: "Excel", image: "Excel.png" },
+        { name: "Word", image: "Word.png" },
     ]
     return (
         <div className={styles.section}>
@@ -24,7 +25,7 @@ export default function Overlay(props) {
                     onMouseEnter={props.changeTitle}
                     onMouseLeave={props.changeTitle}
                     className={styles.image}
-                    src={tech.src}
+                    src={tech.image}
                     alt={tech.name}
                 />)
             })}

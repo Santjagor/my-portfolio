@@ -1,6 +1,6 @@
 .section {
     width: 73vw;
-    height: fit-content;
+    height: 58vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,14 +13,52 @@
 
 .project {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
 }
 
-.image {
+.projectImage {
     width: 20vw;
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
+}
+
+.projectImage:hover {
+    scale: 1.01;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.info {
+    text-align: start;
+    height: 20vw;
+    overflow: hidden;
+    margin: 0 0 0 10px;
+}
+
+.technologies {
+    display: flex;
+    justify-content: center;
+}
+
+.technologieImage {
+    width: 5vw;
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
+}
+
+.technologieImage:hover {
+    scale: 1.01;
+    cursor: pointer;
+    border-radius: 15px;
 }
 
 .text {
     color: var(--primary-color);
     font-size: var(--text-size);
+    margin: 0 0 0 0px;
+    height: 12vw;
+    overflow: hidden;
 }

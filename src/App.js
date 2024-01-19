@@ -17,11 +17,11 @@ function App() {
     }
     if (event.target.name === 'Projects') {
       navigate('/projects')
-      setTitle("/Projects")
+      setTitle("/Proyectos")
     }
     if (event.target.name === 'Technologies') {
       navigate('/technologies')
-      setTitle("/Technologies")
+      setTitle("/Tecnologías")
     }
   }
   const changeTitle = (event) => {
@@ -29,7 +29,7 @@ function App() {
       setTitle('/' + event.target.name)
     }
     if (event.type === "mouseleave") {
-      setTitle('/Technologies')
+      setTitle('/Tecnologías')
     }
   }
   return (
