@@ -7,7 +7,7 @@ export default function Projects(props) {
             {projects.map(prct => {
                 return (
                     <div key={prct.name} className={styles.project}>
-                        <a href="https://supermarketshop.vercel.app/" target='_blank'>
+                        <a href={prct.link} target='_blank'>
                             <img
                                 name={prct.name}
                                 onMouseEnter={props.changeTitle}
