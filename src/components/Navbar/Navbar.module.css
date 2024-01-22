@@ -9,7 +9,8 @@
 }
 
 .navButton{
-    scale: 1.0;
+    width: 5vw;
+    min-width: 50px;
     opacity: 60%;
     transition: all .2s ease-in-out;
     cursor: pointer;
@@ -21,6 +22,7 @@
 }
 
 .navButtonActive{
-    scale: 1.0;
+    width: 5vw;
+    min-width: 50px;
     opacity: 100%;
 }

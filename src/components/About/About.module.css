@@ -2,7 +2,7 @@
     width: 73vw;
     height: 58vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     overflow-y: auto;
     overflow-x: hidden;
@@ -27,7 +27,7 @@
 
 .title {
     color: var(--primary-color);
-    font-size: 3.5vw;
+    font-size: 3rem;
     margin: 0 0 15px 0px;
 }
 
@@ -39,6 +39,7 @@
 .socialImage {
     border-radius: 10px;
     width: 3vw;
+    min-width: 35px;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
