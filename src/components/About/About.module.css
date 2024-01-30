@@ -58,6 +58,7 @@
 @media (max-width: 530px) {
     .section {
         height: 100%;
+        justify-content: center;
     }
 
     .container {
