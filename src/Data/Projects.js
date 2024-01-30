@@ -19,6 +19,7 @@ export const projects = [
         name: "DogZ",
         image: "DogZ.png",
         description: "Cards Website de razas de perros (Proyecto integrador individual - Boot Camp Henry). Entre sus funcionalidades se encuentran: Filtros y Ordenamientos, Buscador, Formulario de creación de razas.",
+        link: "https://github.com/Santjagor/Dogz",
         technologies:
             [
                 { name: "JavaScript", image: "JavaScript.png" },
