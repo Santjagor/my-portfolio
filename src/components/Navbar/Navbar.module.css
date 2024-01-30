@@ -8,7 +8,7 @@
     gap: 20px;
 }
 
-.navButton{
+.navButton {
     width: 5vw;
     min-width: 50px;
     opacity: 60%;
@@ -16,13 +16,17 @@
     cursor: pointer;
 }
 
-.navButton:hover{
+.navButton:hover {
     scale: 1.1;
     opacity: 100%;
 }
 
-.navButtonActive{
+.navButtonActive {
     width: 5vw;
     min-width: 50px;
     opacity: 100%;
+}
+
+@media (max-width: 530px) {
+    
 }

@@ -44,21 +44,29 @@
 .name {
   color: var(--primary-color);
   font-family: primary-font;
-  font-size: 3vw;
+  font-size: 3rem;
   margin: 0.8vw 0vw 0vw 0vw;
-}
-
-.section {
-  background-color: rgb(35, 36, 36);
-  width: 73vw;
-  height: 58vh;
 }
 
 .title {
   color: var(--secondary-color);
   font-family: monospace;
-  font-size: 2.8vw;
+  font-size: 2rem;
   margin: 0vw 0vw 2vw 0vw;
 }
 
-@media (max-width: 500px) {}
+@media (max-width: 530px) {
+  .box {
+    justify-content: start;
+    /* height: fit-content; */
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    margin: 2vw 0vw 2vw 0vw;
+  }
+}

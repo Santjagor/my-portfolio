@@ -55,6 +55,24 @@
     overflow: hidden;
 }
 
+@media (max-width: 530px) {
+    .section {
+        width: 73vw;
+        height: fit-content;
+    }
+
+    .container {
+        width: 58vw;
+        padding: 25px;
+    }
+
+    .title {
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        margin: 0 0 15px 0px;
+    }
+}
+
 @-webkit-keyframes slide-in-blurred-right {
     0% {
         -webkit-transform: translateX(1000px);
