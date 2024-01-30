@@ -24,3 +24,9 @@ code {
 ::-webkit-scrollbar-track {
   opacity: 0%;
 }
+
+@media (max-width: 530px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}

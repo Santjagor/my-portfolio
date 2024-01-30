@@ -58,7 +58,6 @@
 @media (max-width: 530px) {
   .box {
     justify-content: start;
-    /* height: fit-content; */
   }
 
   .name {

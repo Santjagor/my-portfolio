@@ -57,8 +57,7 @@
 
 @media (max-width: 530px) {
     .section {
-        width: 73vw;
-        height: fit-content;
+        height: 100%;
     }
 
     .container {
