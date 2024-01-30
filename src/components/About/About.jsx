@@ -10,9 +10,8 @@ export default function AboutMe(props) {
                 <div className={styles.social}>
                     {aboutMe.social.map(e => {
                         return (
-                            <a href={e.link} target={"_blank"} >
+                            <a key={e.name} href={e.link} target={"_blank"} >
                                 <img
-                                    key={e.name}
                                     name={e.name}
                                     onMouseEnter={props.changeTitle}
                                     onMouseLeave={props.changeTitle}
