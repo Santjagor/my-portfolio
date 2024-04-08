@@ -12,4 +12,5 @@ export const technologies = [
     { name: "VegasPro", image: "VegasPro.png" },
     { name: "Excel", image: "Excel.png" },
     { name: "Word", image: "Word.png" },
+    { name: "Wordpress", image: "Wordpress.png" },
 ]
