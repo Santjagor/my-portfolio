@@ -24,7 +24,7 @@
 .texture {
   background-image: url(Assets/BgTexture.png);
   position: absolute;
-  opacity: 10%;
+  opacity: 25%;
   width: 100%;
   height: 100%;
 }
