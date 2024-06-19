@@ -12,5 +12,6 @@ export const aboutMe = {
             { name: "GitHub", image: "GitHub.png", link: "https://github.com/Santjagor" },
             { name: "santirigore@gmail.com", image: "Mail.png", link: "" },
             { name: "Curriculum Vitae", image: "CV.png", link: "Solavaggione Santiago Martin.pdf" },
+            { name: "Henry Certificate", image: "Henry.png", link: "Henry Certificate.pdf" }
         ]
 }
