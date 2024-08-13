@@ -18,14 +18,24 @@ export default function Projects(props) {
                             />
                         </a>
                         <div className={styles.info}>
-                            <p className={styles.text}>{prct.description}</p>
+                            <p className={styles.text}>
+                                {
+                                    prct.description.split('\n').map((line, index) => (
+                                        <p key={index}>
+                                            {line}
+                                            <br />
+                                        </p>
+                                    ))
+                                }
+                            </p>
                             <div className={styles.technologies}>
                                 {prct.technologies.map(tech => {
                                     return (<img key={tech.name} className={styles.technologyImage} src={tech.image} alt={tech.name} />)
                                 })}
                             </div>
                         </div>
-                    </div>)
+                    </div>
+                )
             })}
         </div>
     )
